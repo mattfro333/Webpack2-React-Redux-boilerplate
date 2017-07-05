@@ -1,0 +1,13 @@
+{
+  "name": "Webpack-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nayray21/Webpack-react.git",
+  "author": "Nathan McCoy <nathanmccoy25@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies":{
+    "webpack": "^3.0.0"
+  }
+}
