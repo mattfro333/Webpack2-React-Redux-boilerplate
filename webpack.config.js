@@ -16,8 +16,10 @@ var cssConfig = isProd ? cssProd : cssDev
 
 module.exports = {
     entry: {
-      app: './src/components/app.js',
-      home: './src/components/Home.js'
+      home: './src/components/Home/Home.js',
+      about: './src/components/About/About.js',
+      reducer: './src/reducer.js',
+      app: './src/components/App.js'
     },
     output: {
         path: path.join(__dirname, "dist"),
