@@ -1,7 +1,7 @@
 {
   "name": "Webpack-react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/nayray21/Webpack-react.git",
   "author": "Nathan McCoy <nathanmccoy25@gmail.com>",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "clean": "rimraf ./dist/*"
   },
   "dependencies": {
+    "express": "^4.15.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",

@@ -1,10 +1,10 @@
 var defaultStore = {
-  name: 'Nathan'
+  props: []
 }
 
 export default function manageStore(store = defaultStore, action){
   switch(action.payload){
-    case 'Savannah':
+    case 'test':
       console.log('Redux is working')
       break;
     default:

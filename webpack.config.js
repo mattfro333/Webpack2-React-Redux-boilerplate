@@ -16,10 +16,8 @@ var cssConfig = isProd ? cssProd : cssDev
 
 module.exports = {
     entry: {
-      home: './src/components/Home/Home.js',
-      about: './src/components/About/About.js',
       reducer: './src/reducer.js',
-      app: './src/components/App.js'
+      app: './src/components/App/App.js'
     },
     output: {
         path: path.join(__dirname, "dist"),
@@ -49,7 +47,7 @@ module.exports = {
     },
     plugins: [new HtmlWebpackPlugin({
         title: 'Webpack React',
-        template: './src/index.html',
+        template: './src/template.html',
         minify: {
             collapseWhitespace: true
         }
