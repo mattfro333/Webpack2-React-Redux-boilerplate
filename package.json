@@ -2,7 +2,7 @@
   "name": "Webpack-react",
   "version": "1.0.0",
   "main": "server.js",
-  "repository": "https://github.com/nayray21/Webpack-react.git",
+  "repository": "https://github.com/nayray21/Webpack2-React-Redux-boilerplate.git",
   "author": "Nathan McCoy <nathanmccoy25@gmail.com>",
   "license": "MIT",
   "scripts": {
